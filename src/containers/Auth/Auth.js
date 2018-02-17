@@ -65,7 +65,7 @@ class Auth extends Component {
     return isValid;
   }
 
-  inputChangedHandler = (event, controlName) => {
+  inputChangeHandler = (event, controlName) => {
     const updatedControls = {
       ...this.state.controls,
       [controlName]: {
